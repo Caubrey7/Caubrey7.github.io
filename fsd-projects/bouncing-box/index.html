@@ -80,7 +80,7 @@
       var randNum = Math.random() * 100;
       var colorStr = "rgb(255, 150, 180)";
       box.css("background-color", colorStr);
-}
+
 
 
 
@@ -89,7 +89,7 @@
        * Each time it is called, it should move the Box to a new location.
        * If the box drifts off the screen, turn it around!
        */
-      function update() {
+        function update() {
         moveBoxTo(positionX, positionY);
         positionX += speed;
         positionY += speedY;
